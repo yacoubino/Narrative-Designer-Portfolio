@@ -3,94 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Narrative game design portfolio — stories shaped through play.">
-  <title>Mohamed Yacoubi — Narrative Game Designer</title>
+  <meta name="description" content="Mohamed Yacoubi — game developer interested in narrative design and interactive storytelling.">
+  <title>Mohamed Yacoubi | Game Developer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="grain"></div>
   <header class="site-header">
-    <a class="wordmark" href="index.html">MY<span>.</span></a>
-    <nav>
-      <a href="#work">Selected work</a>
-      <a href="#approach">Approach</a>
-      <a href="#about">About</a>
-      <a class="nav-contact" href="mailto:YOUR_EMAIL@example.com">Get in touch <span>↗</span></a>
+    <a class="wordmark" href="index.html">Mohamed Yacoubi<span>.</span></a>
+    <nav id="site-nav">
+      <a href="#work">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About me</a>
     </nav>
-    <button class="menu-toggle" aria-label="Open menu">☰</button>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="hero-meta"><span class="eyebrow">NARRATIVE GAME DESIGNER</span><span class="availability"><i></i> Based in Tunisia · Open to opportunities</span></div>
-      <h1>I build stories<br>you <em>play through.</em></h1>
-      <div class="hero-bottom">
-        <p class="hero-intro">I’m Mohamed Yacoubi. I’m interested in the space where narrative and gameplay meet — where a mechanic can reveal a character, an environment can hold a memory, and a player's actions can make a story matter.</p>
-        <a class="text-link" href="#work">Explore selected work <span>↓</span></a>
-      </div>
-      <div class="hero-rule"><span>STORIES</span><span>×</span><span>SYSTEMS</span><span>×</span><span>PLAYER EXPERIENCE</span></div>
+    <section class="simple-hero">
+      <p class="eyebrow">GAME DEVELOPER · TUNISIA</p>
+      <h1>Mohamed Yacoubi</h1>
+      <h2>Game Developer interested in Narrative Design</h2>
+      <p>I'm Mohamed Yacoubi, a game developer from Tunisia. I enjoy working on games where the story is connected to what the player does, not just what they read or watch.</p>
+        <p>My projects have allowed me to explore interactive dialogue, exploration, stealth, environmental storytelling, and psychological horror. I'm interested in developing experiences that stay with players after they finish playing.</p>
     </section>
+
+
+    <section class="skills-section" id="skills">
+      <p class="eyebrow">WHAT I WORK WITH</p>
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div><h3>Narrative</h3><ul><li>Interactive storytelling</li><li>Story and character development</li><li>Environmental storytelling</li><li>Dialogue and player choices</li></ul></div>
+        <div><h3>Game Design</h3><ul><li>Gameplay loop design</li><li>Player objectives and progression</li><li>Exploration and stealth experiences</li><li>Psychological horror design</li></ul></div>
+        <div><h3>Development</h3><ul><li>Unity</li><li>C#</li><li>Prototyping gameplay ideas</li><li>Design documentation</li></ul></div>
+      </div>
+    </section>
+
+
+
 
     <section class="work-section" id="work">
       <div class="section-heading">
-        <div><span class="eyebrow">01 / SELECTED WORK</span><h2>Worlds, moments<br><em>&amp; things left unsaid.</em></h2></div>
-        <p>A selection of personal projects and game jam experiments. Each one taught me something about making the player part of the story.</p>
+        <div><p class="eyebrow">MY WORK</p><h2>Projects</h2></div>
+        <p>Games and experiments I've worked on, from my first project to my most recent.</p>
       </div>
       <div class="project-grid">
-        <a class="project-card card-large" href="project.html?id=room">
-          <div class="cover cover-room"><span class="cover-index">01 — PERSONAL PROJECT</span><div class="cover-art room-art"><span class="window-light"></span><span class="table-shape"></span><span class="chair-shape"></span></div><span class="cover-title">a room<br><i>once shared</i></span><span class="cover-open">VIEW CASE STUDY ↗</span></div>
-          <div class="project-caption"><div><h3>A Room Once Shared</h3><p>Psychological narrative experience · Personal project</p></div><span>01</span></div>
-          <p class="project-teaser">A quiet evening, a dinner prepared for someone who never arrives, and a house that slowly begins to forget.</p>
-        </a>
-        <a class="project-card" href="project.html?id=butcher">
-          <div class="cover cover-butcher"><span class="cover-index">02 — GAME PROJECT</span><div class="abstract-eye"></div><span class="cover-title">Butcher<br><i>Mirror's</i></span><span class="cover-open">VIEW CASE STUDY ↗</span></div>
-          <div class="project-caption"><div><h3>Butcher Mirror's</h3><p>Game project · Details to be added</p></div><span>02</span></div>
-          <p class="project-teaser">A project exploring its own world, player experience, and design challenges.</p>
-        </a>
         <a class="project-card" href="project.html?id=behind">
-          <div class="cover cover-behind"><span class="cover-index">03 — GAME PROJECT</span><div class="screen-shape"><span></span></div><span class="cover-title">Behind<br><i>the Screen</i></span><span class="cover-open">VIEW CASE STUDY ↗</span></div>
-          <div class="project-caption"><div><h3>Behind the Screen</h3><p>Game project · Details to be added</p></div><span>03</span></div>
-          <p class="project-teaser">A project exploring its own world, player experience, and design challenges.</p>
+          <div class="cover cover-behind"><img class="project-card-image" src="assets/images/behind-cover.jpg" alt="Behind the Screen: Parasocial gameplay screenshot" onerror="this.remove()"><span class="cover-index">01</span><span class="cover-title">Behind the Screen</span></div>
+          <div class="project-caption"><div><h3>Behind the Screen: Parasocial</h3><p>Interactive storytelling · Psychological thriller</p></div><span>↗</span></div>
+          <p class="project-teaser">A young woman receives unsettling messages from an anonymous person and must decide how to respond.</p>
         </a>
         <a class="project-card" href="project.html?id=bubble">
-          <div class="cover cover-bubble"><span class="cover-index">04 — GAME JAM</span><div class="bubble-shapes"><i></i><i></i><i></i></div><span class="cover-title">Livin in<br><i>Bubble</i></span><span class="cover-open">VIEW CASE STUDY ↗</span></div>
-          <div class="project-caption"><div><h3>Livin in Bubble</h3><p>Game jam · Details to be added</p></div><span>04</span></div>
-          <p class="project-teaser">A compact experiment made under the constraints of a game jam.</p>
+          <div class="cover cover-bubble"><img class="project-card-image" src="assets/images/bubble-cover.jpg" alt="Livin in Bubble gameplay screenshot" onerror="this.remove()"><span class="cover-index">02</span><span class="cover-title">Livin in Bubble</span></div>
+          <div class="project-caption"><div><h3>Livin in Bubble</h3><p>Game jam · Exploration · Stealth</p></div><span>↗</span></div>
+          <p class="project-teaser">Explore a house quietly and discover why a mother is so afraid of losing her child.</p>
+        </a>
+        <a class="project-card" href="project.html?id=room">
+          <div class="cover cover-room"><img class="project-card-image" src="assets/images/room-cover.png" alt="A Room Once Shared gameplay screenshot" onerror="this.remove()"><span class="cover-index">03</span><span class="cover-title">A Room Once Shared</span></div>
+          <div class="project-caption"><div><h3>A Room Once Shared</h3><p>Psychological narrative experience</p></div><span>↗</span></div>
+          <p class="project-teaser">A familiar evening repeats, but each return to the house reveals that something is disappearing.</p>
         </a>
         <a class="project-card" href="project.html?id=perception">
-          <div class="cover cover-perception"><span class="cover-index">05 — GAME JAM</span><div class="perception-rings"><i></i><i></i><i></i></div><span class="cover-title">Perception</span><span class="cover-open">VIEW CASE STUDY ↗</span></div>
-          <div class="project-caption"><div><h3>Perception</h3><p>Game jam · Details to be added</p></div><span>05</span></div>
-          <p class="project-teaser">A short-form game jam project and an opportunity to test an idea through play.</p>
+          <div class="cover cover-perception"><img class="project-card-image" src="assets/images/perception-cover.png" alt="Perception gameplay screenshot" onerror="this.remove()"><span class="cover-index">04</span><span class="cover-title">Perception</span></div>
+          <div class="project-caption"><div><h3>Perception</h3><p>Game jam · Psychological narrative</p></div><span>↗</span></div>
+          <p class="project-teaser">A man who says he is okay must face the feelings he has been hiding.</p>
+        </a>
+        <a class="project-card" href="project.html?id=butcher">
+          <div class="cover cover-butcher"><img class="project-card-image" src="assets/images/butcher-cover.jpg" alt="The Butcher's Mirror gameplay screenshot" onerror="this.remove()"><span class="cover-index">05</span><span class="cover-title">The Butcher's Mirror</span></div>
+          <div class="project-caption"><div><h3>The Butcher's Mirror</h3><p>First-person psychological horror</p></div><span>↗</span></div>
+          <p class="project-teaser">Work six nights in a family butcher shop and uncover the secret behind your father's death.</p>
         </a>
       </div>
+      <p class="work-note">Projects are listed in the order I created them.</p>
     </section>
 
-    <section class="approach-section" id="approach">
-      <span class="eyebrow">02 / HOW I THINK</span>
-      <div class="approach-layout">
-        <h2>A story is not<br>just what happens.<br><em>It's what you do.</em></h2>
-        <div class="approach-copy">
-          <p>I’m drawn to stories that stay with players because they participated in them. I want narrative to live in objectives, spaces, interactions, choices, and consequences — not only in dialogue or cutscenes.</p>
-          <div class="approach-list">
-            <div><span>01</span><p><b>Find the human question</b><small>What should the player feel, wonder, or reconsider?</small></p></div>
-            <div><span>02</span><p><b>Turn meaning into action</b><small>Build mechanics, interactions, and objectives that express the theme.</small></p></div>
-            <div><span>03</span><p><b>Shape the experience</b><small>Control pacing, information, discovery, and emotional progression.</small></p></div>
-            <div><span>04</span><p><b>Test, listen, refine</b><small>Observe what players understand and what they actually experience.</small></p></div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="about-section" id="about">
-      <div class="about-label"><span class="eyebrow">03 / A LITTLE ABOUT ME</span><span class="about-mark">MY.</span></div>
-      <div class="about-content"><h2>Curious about<br><em>people, choices,</em><br>and the spaces between.</h2><p>I’m Mohamed Yacoubi, a game developer focused on narrative-driven experiences. I enjoy exploring how interactive systems can carry emotion and meaning, and how a player's smallest action can become part of a larger story.</p><a class="text-link" href="mailto:YOUR_EMAIL@example.com">Let’s make something meaningful <span>↗</span></a></div>
-    </section>
   </main>
 
-  <footer><a class="wordmark" href="#">MY<span>.</span></a><p>Stories are made of choices.</p><a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com ↗</a><small>© 2026 Mohamed Yacoubi</small></footer>
+  <footer><a class="wordmark" href="#top">Mohamed Yacoubi<span>.</span></a><p>Game Developer · Tunisia</p><small>© 2026 Mohamed Yacoubi</small></footer>
   <script src="script.js"></script>
 </body>
 </html>

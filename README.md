@@ -1,22 +1,43 @@
-# Mohamed Yacoubi — Narrative Game Designer Portfolio
+# Mohamed Yacoubi — Game Development Portfolio
 
-## Preview
-Open `index.html` in a browser. The site uses plain HTML, CSS, and JavaScript — no Node.js or build setup is required.
+A simple, responsive portfolio built with HTML, CSS, and vanilla JavaScript. No Node.js or build tools are required.
 
-## Before publishing
-1. Replace `YOUR_EMAIL@example.com` in `index.html` and `project.html` with your real contact email.
-2. Replace the abstract CSS project covers with screenshots or key art from each game. The current covers are original CSS placeholders, not screenshots from your games.
-3. Confirm the exact spelling of “Butcher Mirror's” and “Livin in Bubble”.
-4. Fill in the project case studies in `projects.js` using your real project details. The questions on each project page indicate what is still missing.
-5. Add links to playable builds, itch.io pages, trailers, or repositories where appropriate.
-6. Review your role carefully so the portfolio distinguishes your contribution from the work of teammates.
+## Open the website
 
-## Structure
-- `index.html` — homepage / selected projects
-- `project.html` — reusable case-study page
-- `projects.js` — project story, contribution, design process, and lessons
-- `styles.css` — visual design and responsive layout
-- `script.js` — mobile navigation
+1. Extract the ZIP file.
+2. Open `index.html` in your browser.
+3. Select a project to view its details.
 
-## Design direction
-Editorial / literary art direction: warm off-white typography, deep charcoal background, muted bronze accents, serif display type, restrained mono labels, and large cinematic project covers. Replace the placeholder covers with real in-game imagery for the strongest portfolio impact.
+## Add project images
+
+Put one cover image for each project in `assets/images/` using these exact filenames:
+
+- `behind-cover.jpg`
+- `bubble-cover.jpg`
+- `room-cover.jpg`
+- `perception-cover.jpg`
+- `butcher-cover.jpg`
+
+Each image appears on that project's card on the homepage. You can also add up to three screenshots to each project detail page:
+
+| Project | Screenshot filenames |
+|---|---|
+| Behind the Screen: Parasocial | `behind-01.jpg`, `behind-02.jpg`, `behind-03.jpg` |
+| Livin in Bubble | `bubble-01.jpg`, `bubble-02.jpg`, `bubble-03.jpg` |
+| A Room Once Shared | `room-01.jpg`, `room-02.jpg`, `room-03.jpg` |
+| Perception | `perception-01.jpg`, `perception-02.jpg`, `perception-03.jpg` |
+| The Butcher's Mirror | `butcher-01.jpg`, `butcher-02.jpg`, `butcher-03.jpg` |
+
+Use JPG files and keep the names exactly as written. The site displays a simple placeholder until you add an image.
+
+## Publish
+
+Upload the contents of this folder to GitHub Pages or another static web host, keeping the folder structure intact.
+
+## Files
+
+- `index.html` — homepage, projects, skills, and about section.
+- `project.html` — reusable project details page.
+- `projects.js` — content for all five projects.
+- `styles.css` — layout and responsive styling.
+- `script.js` — mobile navigation.
